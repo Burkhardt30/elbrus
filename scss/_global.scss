@@ -329,7 +329,7 @@ button {
         width: 7px;
         height: 5px;
         margin-left: 6px;
-        background: url("/images/icons/angle-down.svg");
+        background: url("../images/icons/angle-down.svg");
     }
 
     &__dropdown {
@@ -397,7 +397,7 @@ button {
             width: 12px;
             height: 14px;
             margin-bottom: 4px;
-            background: url('/images/icons/mark-1.svg') 0 0 / 100% 100% no-repeat;
+            background: url('../images/icons/mark-1.svg') 0 0 / 100% 100% no-repeat;
             margin-right: 9px;
         }
     }
@@ -776,7 +776,7 @@ button {
             bottom: 0;
 
             border-radius: 10px;
-            background: #ddf2e3 url("/images/icons/check.svg") 50% 50% no-repeat;
+            background: #ddf2e3 url("../images/icons/check.svg") 50% 50% no-repeat;
 
             opacity: 0;
             visibility: hidden;
@@ -1021,7 +1021,7 @@ ol {
 
         width: 30px;
         height: 30px;
-        background: url("/images/icons/cross-gray.svg") 0 0 / 100% no-repeat;
+        background: url("../images/icons/cross-gray.svg") 0 0 / 100% no-repeat;
     }
 
     &--show {
@@ -1163,7 +1163,7 @@ ol {
     &__icon_more {
         width: 20px !important;
         height: 20px !important;
-        background: url("/images/icons/share.svg") 0 0 / 100% no-repeat !important;
+        background: url("../images/icons/share.svg") 0 0 / 100% no-repeat !important;
     }
 }
 

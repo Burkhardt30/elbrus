@@ -311,7 +311,7 @@
             cursor: pointer;
             @include adaptiveValue(width, 17, 13);
             @include adaptiveValue(height, 17, 13);
-            background: url("/images/icons/input-cross.svg") 0 0 / 100% no-repeat;
+            background: url("../images/icons/input-cross.svg") 0 0 / 100% no-repeat;
         }
 
         transition: border .3s;
@@ -533,7 +533,7 @@
         left: 15px;
 
         &::before {
-            background: url('/images/icons/angle-left.svg') 0 0 / 100% no-repeat;
+            background: url('../images/icons/angle-left.svg') 0 0 / 100% no-repeat;
         }
     }
 
@@ -541,7 +541,7 @@
         right: 15px;
 
         &::before {
-            background: url('/images/icons/angle-right.svg') 0 0 / 100% no-repeat;
+            background: url('../images/icons/angle-right.svg') 0 0 / 100% no-repeat;
         }
     }
 }
@@ -630,7 +630,7 @@
             height: 231px;
             @include adaptiveValue(height, 231, 143);
             @include adaptiveValue(width, 150, 93);
-            background: url('/images/decor/woman-operator.png') 0 0 / 100% no-repeat;
+            background: url('../images/decor/woman-operator.png') 0 0 / 100% no-repeat;
         }
     }
 
@@ -648,14 +648,14 @@
             display: block;
             @include adaptiveValue(width, 168, 118);
             @include adaptiveValue(height, 107, 78);
-            background: url('/images/decor/truck.jpg') 0 0 / 100% no-repeat;
+            background: url('../images/decor/truck.jpg') 0 0 / 100% no-repeat;
             @include adaptiveValue(margin-top, 22, 0);
         }
     }
 
     &__questions {
         display: block;
-        background: url('/images/decor/question-mark.jpg') 100% 50% / cover no-repeat;
+        background: url('../images/decor/question-mark.jpg') 100% 50% / cover no-repeat;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -670,7 +670,7 @@
 .about {
     &__inner {
         padding-right: 50%;
-        background: url('/images/decor/car.jpg') 100% 50% no-repeat;
+        background: url('../images/decor/car.jpg') 100% 50% no-repeat;
     }
 
     &__title {
@@ -685,7 +685,7 @@
 }
 
 .locations {
-    background: url('/images/content/location-bg.jpg') 50% 50% / cover no-repeat;
+    background: url('../images/content/location-bg.jpg') 50% 50% / cover no-repeat;
     color: #fff;
     position: relative;
     padding: 80px 0 110px;
@@ -850,7 +850,7 @@
         right: 18px;
         width: 25px;
         height: 25px;
-        background: url('/images/icons/cross-black.svg') 0 0 / 100% no-repeat;
+        background: url('../images/icons/cross-black.svg') 0 0 / 100% no-repeat;
     }
 
     &__title {
@@ -877,7 +877,7 @@
 
         &:checked+.filter-aside__checkbox {
             border: none;
-            background: $red url("/images/icons/check-white.svg") 50% 50% no-repeat;
+            background: $red url("../images/icons/check-white.svg") 50% 50% no-repeat;
         }
     }
 
@@ -923,7 +923,7 @@
         &::after {
             content: '';
             display: block;
-            background: url("/images/icons/angle-up.svg") 50% 50% / 100% no-repeat;
+            background: url("../images/icons/angle-up.svg") 50% 50% / 100% no-repeat;
             width: 7px;
             height: 4px;
 
@@ -966,7 +966,7 @@
             width: 17px;
             height: 17px;
             margin-left: 5px;
-            background: url('/images/icons/cross-mini.svg') 0 0 / 100% no-repeat;
+            background: url('../images/icons/cross-mini.svg') 0 0 / 100% no-repeat;
         }
     }
 }
@@ -1000,7 +1000,7 @@
             width: 19px;
             height: 17px;
             margin-left: 10px;
-            background: url('/images/icons/filter.svg') 0 0 / 100% no-repeat;
+            background: url('../images/icons/filter.svg') 0 0 / 100% no-repeat;
         }
     }
 
@@ -1072,13 +1072,13 @@
 
 .catalog-grid {
     &::before {
-        content: url('/images/icons/grid.svg');
+        content: url('../images/icons/grid.svg');
     }
 }
 
 .catalog-list {
     &::before {
-        content: url('/images/icons/list.svg');
+        content: url('../images/icons/list.svg');
     }
 }
 
@@ -1681,7 +1681,7 @@
                 transform: translate(-50%, -50%);
                 @include adaptiveValue(width, 35, 17);
                 @include adaptiveValue(height, 35, 17);
-                background: url("/images/icons/yt.svg") 0 0 / 100% no-repeat;
+                background: url("../images/icons/yt.svg") 0 0 / 100% no-repeat;
             }
         }
     }
@@ -1703,12 +1703,12 @@
 
     &__prev {
         left: 0;
-        background: url("/images/icons/b-angle-left.svg") 0% 50% no-repeat;
+        background: url("../images/icons/b-angle-left.svg") 0% 50% no-repeat;
     }
 
     &__next {
         right: 0;
-        background: url("/images/icons/b-angle-right.svg") 100% 50% no-repeat;
+        background: url("../images/icons/b-angle-right.svg") 100% 50% no-repeat;
     }
 
     &__body {
@@ -1858,19 +1858,19 @@
             color: #56BD74;
 
             &::before {
-                content: url("/images/icons/check-green.svg");
+                content: url("../images/icons/check-green.svg");
             }
         }
 
         &--self {
             &::before {
-                content: url("/images/icons/self.svg");
+                content: url("../images/icons/self.svg");
             }
         }
 
         &--delivery {
             &::before {
-                content: url("/images/icons/delivery.svg");
+                content: url("../images/icons/delivery.svg");
             }
         }
 
@@ -2112,15 +2112,15 @@
         }
 
         &--loc {
-            background: url("/images/icons/mark-gray.svg") 0 0 no-repeat;
+            background: url("../images/icons/mark-gray.svg") 0 0 no-repeat;
         }
 
         &--tel {
-            background: url("/images/icons/tel.svg") 0 0 / auto 100% no-repeat;
+            background: url("../images/icons/tel.svg") 0 0 / auto 100% no-repeat;
         }
 
         &--clock {
-            background: url("/images/icons/clock.svg") 0 0 no-repeat;
+            background: url("../images/icons/clock.svg") 0 0 no-repeat;
         }
     }
 
@@ -2347,7 +2347,7 @@
     &__remove {
         width: 20px;
         height: 20px;
-        background: url("/images/icons/cross.svg") 50% 50% no-repeat;
+        background: url("../images/icons/cross.svg") 50% 50% no-repeat;
     }
 }
 
@@ -2842,7 +2842,7 @@
 
         width: 30px;
         height: 30px;
-        background: url("/images/icons/cross-gray.svg") 0 0 / 100% no-repeat;
+        background: url("../images/icons/cross-gray.svg") 0 0 / 100% no-repeat;
     }
 
     &--show {
